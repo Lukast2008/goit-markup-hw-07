@@ -16,39 +16,40 @@
       rel="stylesheet"
       href="./modern-normalize-main/modern-normalize.css"
     />
-
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- top line-->
     <header class="header">
-      <div class="container posstion">
+      <div class="container header__container">
         <a class="logo" href="./index.html"
-          ><span class="logo-part1">Web</span
-          ><span class="logo-part2">Studio</span>
+          >Web</span
+          ><span class="logo-bleck">Studio</span>
         </a>
 
-        <nav class="nav-menu">
-          <ul class="nav-item">
-            <li class="nav-style">
-              <a class="nav-text current" href="./index.html">Студія</a>
+        <nav class="nav__menu">
+          <ul class="nav__item">
+            <li class="nav__style">
+              <a class="nav__link nav__link--current" href="./index.html">Студія</a>
             </li>
 
-            <li class="nav-style">
-              <a class="nav-text" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__style">
+              <a class="nav__link" href="./portfolio.html">Портфоліо</a>
             </li>
 
-            <li class="nav-style">
-              <a class="nav-text" href="./contacts">Контакти</a>
+            <li class="nav__style">
+              <a class="nav__link" href="./contacts">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <!-- contacts -->
-        <ul class="contacts-item">
-          <li class="contacts-list">
-            <a class="contacts-mail" href="mailto:info@devstudio.com">
+        <ul class="contacts__list">
+
+          <li class="contacts__item">
+            <a class="contacts__mail" href="mailto:info@devstudio.com">
               <svg class="icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -56,15 +57,16 @@
             </a>
           </li>
 
-          <li class="contacts-list">
-            <a class="contacts-fone" href="tel:+380961111111">
-              <svg class="icon-f">
+          <li class="contacts__item">
+            <a class="contacts__phone" href="tel:+380961111111">
+              <svg class="icon icon-f">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
             >
           </li>
         </ul>
+
       </div>
     </header>
 
@@ -72,8 +74,8 @@
     <main>
       <!-- Hed -->
       <section class="hero section">
-        <div class="container posstion-hero">
-          <h1 class="header-h1">Ефективні рішення для вашого бізнесу</h1>
+        <div class="container ">
+          <h1 class="hero--header">Ефективні рішення для вашого бізнесу</h1>
 
           <button class="btn" type="button" data-modal-open>
             Замовити послугу
@@ -86,10 +88,10 @@
         <div class="container">
           <h2 class="text-features">Особливості</h2>
 
-          <ul class="features-list">
-            <li class="features-item">
-              <div class="icon-box-features">
-                <svg class="features-icon">
+          <ul class="features__list">
+            <li class="features__item">
+              <div class="features__icon--box">
+                <svg class="features__icon">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
@@ -101,9 +103,9 @@
               </p>
             </li>
 
-            <li class="features-item">
-              <div class="icon-box-features">
-                <svg class="features-icon">
+            <li class="features__item">
+              <div class="features__icon--box">
+                <svg class="features__icon">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
@@ -115,9 +117,9 @@
               </p>
             </li>
 
-            <li class="features-item">
-              <div class="icon-box-features">
-                <svg class="features-icon">
+            <li class="features__item">
+              <div class="features__icon--box">
+                <svg class="features__icon">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
@@ -128,9 +130,9 @@
               </p>
             </li>
 
-            <li class="features-item">
-              <div class="icon-box-features">
-                <svg class="features-icon">
+            <li class="features__item">
+              <div class="features__icon--box">
+                <svg class="features__icon">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
@@ -326,79 +328,83 @@
         </div>
       </section>
 
-      <section class="кegular-customers section">
+      <section class="customers section">
         <div class="container">
           <h2 class="customers-header">Постійні клієнти</h2>
-          <ul class="customers">
-            <li class="client">
-              <a class="client-website" href="">
-                <svg class="client-icon">
+          <ul class="customers__list">
+
+            <li class="customers__item">
+              <a class="customers__website" href="">
+                <svg class="customers-icon">
                   <use href="./images/icons.svg#icon-Logo-0"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="client">
-              <a class="client-website" href="">
-                <svg class="client-icon">
+            <li class="customers__item">
+              <a class="customers__website" href="">
+                <svg class="customers-icon">
                   <use href="./images/icons.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="client">
-              <a class="client-website" href="">
-                <svg class="client-icon">
+            <li class="customers__item">
+              <a class="customers__website" href="">
+                <svg class="customers-icon">
                   <use href="./images/icons.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="client">
-              <a class="client-website" href="">
-                <svg class="client-icon">
+            <li class="customers__item">
+              <a class="customers__website" href="">
+                <svg class="customers-icon">
                   <use href="./images/icons.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="client">
-              <a class="client-website" href="">
-                <svg class="client-icon">
+            <li class="customers__item">
+              <a class="customers__website" href="">
+                <svg class="customers-icon">
                   <use href="./images/icons.svg#icon-Logo-4"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="client">
-              <a class="client-website" href="">
-                <svg class="client-icon">
+            <li class="customers__item">
+              <a class="customers__website" href="">
+                <svg class="customers-icon">
                   <use href="./images/icons.svg#icon-Logo-5"></use>
                 </svg>
               </a>
             </li>
+
           </ul>
+
         </div>
+
       </section>
     </main>
 
+    <!-- footer -->
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-items">
-          <a class="logo-infoo" href="./index.html"
-            ><span class="logo-f1">Web</span><span class="logo-f2">Studio</span>
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-white">Studio</span>
           </a>
 
           <address class="link-addres">
-            <a
-              class="addres-com"
-              href="https://www.google.com.ua/maps/@50.4265841,30.5361971,17z?hl=uk"
-            >
+            <a class="addres-com"
+              href="https://www.google.com.ua/maps/@50.4265841,30.5361971,17z?hl=uk">
               м. Київ, пр-т Лесі Українки, 26
             </a>
-            <a class="contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+
+            <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+
             <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+
           </address>
         </div>
 
