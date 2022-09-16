@@ -1,5 +1,5 @@
 .section {
-    padding: 94px 0px;
+     @include section();
   }
   
   .container {

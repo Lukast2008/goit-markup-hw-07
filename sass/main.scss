@@ -1,6 +1,8 @@
 @import './utils/variables';
 @import './base/reset';
+@import './utils/mixins';
 @import './base/conteiner';
+
 
 @import './layouts/header';
 @import './components/logo';
@@ -27,4 +29,6 @@
 @import './layouts/portfolio';
 
 @import './components/subscraibe_form' ;
+
+
 
