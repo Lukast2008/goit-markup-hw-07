@@ -968,6 +968,7 @@ customers {
   margin: 0 auto;
   padding: 60px 0px;
 }
+
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1006,7 +1007,7 @@ customers {
           transition-duration: var(--timing);
 }
 
-.contacts {
+.contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1022,8 +1023,8 @@ customers {
 
 .addres-com:hover,
 .addres-com:focus,
-.contacts:hover,
-.contacts:focus {
+.contact:hover,
+.contact:focus {
   color: var(--brand-color--);
 }
 

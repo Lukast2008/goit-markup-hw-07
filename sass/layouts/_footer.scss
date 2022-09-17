@@ -2,13 +2,14 @@
     background-color: var(--backgrs-color--);
     margin: 0 auto;
     padding: 60px 0px;
-  
-  
-    &-container {
-        display: flex;
-        align-items: baseline;
-    }
+
   }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 
   .link-addres {
     font-style: normal;
@@ -31,7 +32,7 @@
     transition-duration: var(--timing);
   }
   
-  .contacts {
+  .contact {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -44,8 +45,8 @@
   
   .addres-com:hover,
   .addres-com:focus,
-  .contacts:hover,
-  .contacts:focus {
+  .contact:hover,
+  .contact:focus {
     color: var(--brand-color--);
   }
   
