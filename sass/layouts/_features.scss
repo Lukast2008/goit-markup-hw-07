@@ -2,7 +2,7 @@
     padding-bottom: 0px;
   }
   
-  .text-features {
+  .features__titel {
     visibility: hidden;
     height: 0;
   }
@@ -23,7 +23,7 @@
     height: 70px;
   }
   
-  .features__icon--box {
+  .features__box {
     background-color: var(--back-color--);
     border-radius: 4px;
     height: 120px;
@@ -33,7 +33,7 @@
     justify-content: center;
   }
   
-  .features-header {
+  .features__header {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
@@ -42,7 +42,7 @@
     margin-bottom: 10px;
   }
   
-  .features-disc {
+  .features-desc {
     color: var(--description-color--);
     font-size: 14px;
     line-height: 1.71;

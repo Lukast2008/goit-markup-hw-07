@@ -1,3 +1,9 @@
+.contacts {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
 .contacts__item {
     list-style: none;
     display: flex;
@@ -18,7 +24,7 @@
     transition-duration: var(--timing);
   }
 
-  .icon {
+  .contacts__icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -28,8 +34,8 @@
     transition-duration: var(--timing)
   }
   
-  .contacts__mail:hover .icon,
-  .contacts__mail:focus .icon {
+  .contacts__mail:hover .contacts__icon,
+  .contacts__mail:focus .contacts__icon {
     fill: var(--brand-color--);
   }
   

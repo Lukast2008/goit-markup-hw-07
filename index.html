@@ -17,7 +17,7 @@
       href="./modern-normalize-main/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+ 
   </head>
 
   <body>
@@ -25,32 +25,31 @@
     <header class="header">
       <div class="container header__container">
         <a class="logo" href="./index.html"
-          >Web</span
-          ><span class="logo-bleck">Studio</span>
+          >Web<span class="logo-bleck">Studio</span>
         </a>
 
-        <nav class="nav__menu">
-          <ul class="nav__item">
-            <li class="nav__style">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
               <a class="nav__link nav__link--current" href="./index.html">Студія</a>
             </li>
 
-            <li class="nav__style">
+            <li class="nav__item">
               <a class="nav__link" href="./portfolio.html">Портфоліо</a>
             </li>
 
-            <li class="nav__style">
+            <li class="nav__item">
               <a class="nav__link" href="./contacts">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <!-- contacts -->
-        <ul class="contacts__list">
+        <ul class="contacts">
 
           <li class="contacts__item">
             <a class="contacts__mail" href="mailto:info@devstudio.com">
-              <svg class="icon">
+              <svg class="contacts__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -59,7 +58,7 @@
 
           <li class="contacts__item">
             <a class="contacts__phone" href="tel:+380961111111">
-              <svg class="icon icon-f">
+              <svg class="contacts__icon icon-f">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -75,7 +74,7 @@
       <!-- Hed -->
       <section class="hero section">
         <div class="container ">
-          <h1 class="hero--header">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero__header">Ефективні рішення для вашого бізнесу</h1>
 
           <button class="btn" type="button" data-modal-open>
             Замовити послугу
@@ -86,63 +85,65 @@
       <!-- Features -->
       <section class="features section">
         <div class="container">
-          <h2 class="text-features">Особливості</h2>
+          <h2 class="features__titel">Особливості</h2>
 
           <ul class="features__list">
+
             <li class="features__item">
-              <div class="features__icon--box">
+              <div class="features__box">
                 <svg class="features__icon">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
 
-              <h3 class="features-header">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="features-disc">
+              <h3 class="features__header">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-desc">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
 
             <li class="features__item">
-              <div class="features__icon--box">
+              <div class="features__box">
                 <svg class="features__icon">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
 
               <h3 class="features-header">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="features-disc">
+              <p class="features-desc">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне усебе.
               </p>
             </li>
 
             <li class="features__item">
-              <div class="features__icon--box">
+              <div class="features__box">
                 <svg class="features__icon">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
 
-              <h3 class="features-header">ПЛАНУВАННЯ</h3>
-              <p class="features-disc">
+              <h3 class="features__header">ПЛАНУВАННЯ</h3>
+              <p class="features-desc">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
             <li class="features__item">
-              <div class="features__icon--box">
+              <div class="features__box">
                 <svg class="features__icon">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
 
               <h3 class="features-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="features-disc">
+              <p class="features-desc">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
             </li>
+            
           </ul>
         </div>
       </section>
